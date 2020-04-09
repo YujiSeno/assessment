@@ -45,12 +45,12 @@ dawButtont.onclick = () => {
     const anchor = document.createElement('a');
     const hrefValue = 
     'https://twitter.com/intent/tweet?button_hashtag=' +
-    encodeURIComponent('あなたへのオススメDAW') +
+    encodeURIComponent('あなたへのオススメDAW診断') +
     '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href', hrefValue);
     anchor.className = 'twitter-hashtag-button';
     anchor.setAttribute('data-text', result);
-    anchor.innerText = 'Tweet #あなたへのオススメDAW';
+    anchor.innerText = 'Tweet #あなたへのオススメDAW診断';
     tweetDivided.appendChild(anchor);
 
     // widgets.jsの設定
