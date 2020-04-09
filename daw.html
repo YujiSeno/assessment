@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="twitter:card" content="summary" />
+    <meta
+      property="og:url"
+      content="https://YujiSeno.github.io/assessment/daw.html"
+    />
+    <meta property="og:title" content="あなたへのオススメDAW" />
+    <meta
+      property="og:description"
+      content="N予備校プログラミング入門コースで制作した、「あなたへのオススメDAW」サイトです。"
+    />
+    <link rel="stylesheet" href="daw.css">
+    <title>あなたへのオススメDAW</title>
+</head>
+<body>
+    <h1>あなたへのオススメDAW</h1>
+    <p>あなたのお名前を入れて下さい</p>
+    <input type="text" id="user-name" size="40" maxlength="20" />
+    <button id="daw">診断する</button>
+    <div id="result-area"></div>
+    <div id="tweet-area">
+        <a
+            href="https://twitter.com/intent/tweet?button_hashtag=あなたへのオススメDAW&ref_src=twsrc%5Etfw"
+            class="twitter-hashtag-button"
+            data-text="診断結果の文章"
+            data-show-count="false">Tweet #あなたへのオススメDAW</a
+        >
+        <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+        ></script>
+    </div>
+    <script src="daw.js"></script>
+</body>
+</html>
