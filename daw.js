@@ -69,6 +69,7 @@ const answers = [
   '{userName}へのオススメDAWは「PreSonus StudioOne」です。賢さとお茶目さの二面性を持つハイブリッドな{userName}にピッタリでしょう。',
   '{userName}へのオススメDAWは「Bitwig Studio」です。目新しいものに対して興味があり、直感性を信じて生きている{userName}にピッタリでしょう。',
   '{userName}へのオススメDAWは「MOTU Digital Performer」です。どんなに険しき道でも自分の信念を曲げない{userName}にピッタリでしょう。',
+  '{userName}へのオススメDAWは「KORG Gadgetr」です。誰とでも仲良く接することが出来る{userName}にピッタリでしょう。',
 ];
 
 /**
